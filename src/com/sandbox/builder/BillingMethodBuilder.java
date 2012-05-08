@@ -12,7 +12,7 @@ public class BillingMethodBuilder {
 	}
 	
 	public BillingMethodBuilder withType(String billingMethodType) {
-		BillingMethodTypes thisBillingMethodType = Enum.valueOf(BillingMethodTypes.class, billingMethodType);
+		BillingMethodTypes thisBillingMethodType = BillingMethodTypes.valueOf(billingMethodType);
 		billingMethod.setBillingMethodType(thisBillingMethodType.getType());
 		billingMethod.setBillingMethodDescription(thisBillingMethodType.getDescription());
 		return this;
