@@ -3,7 +3,11 @@ Fluent API Sandbox
 
 This is a sandbox project to play around with some of the Java coding practices recommended by John Ferguson Smart at a recent PaddyPower Technology series event.
 
-I may use this project to support a few blog posts, haven't decided yet! 
+I've used this code to support a couple of blog posts:
+
+The Builder Pattern: http://paddycorry.wordpress.com/2012/03/11/fluent-java-apis-i-the-builder-pattern/
+
+A MockBuilder: http://paddycorry.wordpress.com/2012/07/02/fluent-java-apis-ii-the-mockbuilder-pattern/
 
 
 http://paddycorry.wordpress.com
